@@ -1,10 +1,17 @@
-
+body{
+    background-color: aliceblue;
+}
+p{
+    font-size: 20px;
+    font-weight: normal;
+    color: #25243299;
+}
 .btn {
     width: 135px;
     height: 50px;
     background-color: #4E47FF;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     border-radius: 10px;
     color: white;
     margin-top: 30px;
@@ -23,10 +30,10 @@
 .nav{
     display: flex;
     justify-content: space-around;
-    gap: 500px;
+    gap: 400px;
 }
-nav h2{
-    font-size: 35px;
+nav h1{
+    font-size: 40px;
     font-weight: bolder;
     color: #4E47FF;
 }
@@ -42,4 +49,24 @@ nav h2{
 .banner h1{
     font-size: 65px;
     font-weight: bold;
+}
+
+/* main part start */
+.Action{
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+    text-align: left;
+    margin: 50px auto;
+    width: 1140px;
+}
+.Action div h3{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.img{
+    width: 380px;
+    height: 280px;
+    border-radius: 10px;
 }
