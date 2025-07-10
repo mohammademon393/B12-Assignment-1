@@ -57,7 +57,7 @@ nav h1{
     gap: 250px;
     justify-content: center;
     text-align: left;
-    margin: 50px auto;
+    margin: 100px auto;
     width: 1140px;
 }
 .Action div h3{
@@ -69,4 +69,73 @@ nav h1{
     width: 380px;
     height: 280px;
     border-radius: 10px;
+}
+
+/* section - 2 */
+.productive{
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(187, 223, 254);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+.productive h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.productive-child{
+    display: flex;
+    gap: 250px;
+}
+.productive-child h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
+/* section 3 */
+.Touch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.Touch div h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+/* .Touch-child form input, label{
+    font-size: 2em;
+} */
+.Touch-child form input{
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+    font-weight:normal;
+    border: 1px solid rgba(191, 189, 189, 0.77);
+    border-radius: 10px;
+    padding: 5px 5px 5px 25px;
+    margin: 10px 0 20px 0;
+}
+.Touch-child form label{
+    font-size: 20px;
+    font-weight:normal;
+}
+.textarea{
+    font-size: 20px;
+    font-weight: normal;
+    width: 400px;
+    height: 120px;
+    border: 1px solid rgba(191, 189, 189, 0.77);
+    border-radius: 10px;
+    padding: 5px 5px 5px 25px;
+    margin: 10px 0 20px 0;
+    resize: none;
 }
