@@ -139,3 +139,55 @@ nav h1{
     margin: 10px 0 20px 0;
     resize: none;
 }
+
+/* challanges part */
+.challanges{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+.challanges h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.card{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid rgba(190, 188, 188, 0.428);
+    border-radius: 10px;
+}
+
+
+
+/* footer section start */
+.footer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+    height: 400px;
+    background-color: white;
+}
+.footer h1{
+    font-size: 86px;
+    color: #4E47FF;
+    font-weight: bolder;
+}
+.nevigration ul{
+    display: flex;
+    gap: 30px;
+    color: black;
+    margin-left: 80px;
+    list-style: none;
+}
+.nevigration li a{
+    text-decoration: none;
+}
+.nevigration ul li:hover{
+    background-color: #4E47FF;
+}
