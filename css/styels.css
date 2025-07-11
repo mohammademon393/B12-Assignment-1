@@ -1,5 +1,7 @@
+/* Universal selector */
 body{
     background-color: aliceblue;
+    font-family: sans-serif;
 }
 p{
     font-size: 20px;
@@ -10,7 +12,7 @@ p{
     width: 135px;
     height: 50px;
     background-color: #4E47FF;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     border-radius: 10px;
     color: white;
@@ -33,7 +35,7 @@ p{
     gap: 400px;
 }
 nav h1{
-    font-size: 40px;
+    font-size: 48px;
     font-weight: bolder;
     color: #4E47FF;
 }
@@ -68,7 +70,7 @@ nav h1{
 .img{
     width: 380px;
     height: 280px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 /* section - 2 */
